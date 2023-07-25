@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Activity text"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:id="@+id/tvActivityText"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnAdd"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnSub"
+        />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentContainer"
+        android:name="com.example.fragmenthojaaaaaaaa.firstfragment"
+
+        />
+
+
+</LinearLayout>
